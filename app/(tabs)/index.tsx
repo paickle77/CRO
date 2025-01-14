@@ -118,4 +118,15 @@ const class1 = [ {
   console.log('danh sách sinh viên sắp sếp theo điểm số',diemso);
   const diemrenluyen=quamon.sort((a,b) =>a.avgTraningPoint - b.avgTraningPoint);
   console.log('danh sách sinh viên sắp sếp theo điểm rèn luyện',diemrenluyen);
-  
+
+  //bai2
+  const oldData=[
+    {code:'ab',name:'son moi'},
+    {code:'ac',name:'sua rua mat'},
+    {code:null,name:null},
+    {code:null,name:''}
+  ]
+  const newData={
+    ab:{code:'ab',name:'son moi'},
+    ac:{code:'ac',name:'sua rua mat'}
+  };
